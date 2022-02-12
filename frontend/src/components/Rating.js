@@ -1,4 +1,5 @@
 import React from "react";
+import Products from "./Products";
 
 export default function Rating(props) {
   const { rating, numReviews } = props;
@@ -59,7 +60,7 @@ export default function Rating(props) {
           }
         ></i>
       </span>
-      <spam>{numReviews + " reviews"}</spam>
+      <spam>{`${numReviews} reviews`}</spam>
     </div>
   );
 }
